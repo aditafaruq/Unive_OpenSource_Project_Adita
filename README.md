@@ -11,7 +11,9 @@
 ## Project Overview: The design takes two N-bit fixed-point inputs (a value and a weight) each cycle, multiplies them and adds the result to a running accumulator register. Two versions are built from the same top level structure: Exact MAC: standard multiplier + full-adder-based accumulate stage.And Approximate MAC: uses the same overall architecture, but incorporates a selected approximate adder in the accumulation stage to reduce hardware complexity and switching activity at the cost of controlled numerical error. Both variants are pushed through the same OpenROAD flow independently, and their synthesis/PnR reports and output accuracy (measured against a set of test input vectors) are compared directly
 
 ## Block Diagram:
+![Block Diagram](block-diagram.jfif)
 
 ## Features: 8-bit input operands, Exact and approximate MAC architectures, Fully synchronous digital design, Verilog HDL implementation, Configurable accumulation operation, Designed for energy-efficient edge AI applications, RTL-level functional verification, RTL-to-GDSII implementation using OpenROAD, IHP SG13G2 130 nm technology support, Power, area, timing, and accuracy trade-off analysis.
 
-## Design Specifications
+## Design Specifications:
+![Design Specifications](design specifications.png)
