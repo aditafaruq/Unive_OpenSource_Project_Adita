@@ -16,4 +16,4 @@
 ## Features: 8-bit input operands, Exact and approximate MAC architectures, Fully synchronous digital design, Verilog HDL implementation, Configurable accumulation operation, Designed for energy-efficient edge AI applications, RTL-level functional verification, RTL-to-GDSII implementation using OpenROAD, IHP SG13G2 130 nm technology support, Power, area, timing, and accuracy trade-off analysis.
 
 ## Design Specifications:
-![Design Specifications](design specifications.png)
+![Design Specifications](design-specifications.PNG)
